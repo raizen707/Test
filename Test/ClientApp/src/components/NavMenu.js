@@ -32,7 +32,12 @@ export default props => (
                 <LinkContainer to={'/fetchdataconcurso'}>
                     <NavItem>
                         <Glyphicon glyph='th-list' /> Fetch data Concurso
-          </NavItem>
+                    </NavItem>        
+                </LinkContainer>
+                <LinkContainer to={'/fetchdataconcursowindows'}>
+                    <NavItem>
+                        <Glyphicon glyph='th-list' /> Fetch data Concurso .net Framework
+                    </NavItem>
                 </LinkContainer>
             </Nav>
         </Navbar.Collapse>
