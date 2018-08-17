@@ -6,6 +6,8 @@ import Counter from './components/Counter';
 import FetchData from './components/FetchData';
 import FetchDataConcurso from './components/FetchDataConcurso';
 import FetchDataConcursoWindows from './components/FetchDataConcursoWindows';
+import social from './components/Social';
+
 export default () => (
     <Layout>
         <Route exact path='/' component={Home} />
@@ -13,6 +15,6 @@ export default () => (
         <Route path='/fetchdata/:startDateIndex?' component={FetchData} />
         <Route path='/fetchdataconcurso/:startDateIndex?' component={FetchDataConcurso} />
         <Route path='/FetchDataConcursoWindows/:startDateIndex?' component={FetchDataConcursoWindows} />
-
+        <Route path="/social" component={social}></Route>
     </Layout>
 );
